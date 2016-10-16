@@ -46,7 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Object_Interaction.cs" />
+     <Compile Include="Assets\Scripts\Pre Game UI\add_button.cs" />
+     <Compile Include="Assets\Scripts\color_changer.cs" />
+     <Compile Include="Assets\Scripts\game_manager.cs" />
      <Compile Include="Assets\Scripts\model_manager.cs" />
+     <Compile Include="Assets\Scripts\player_manager.cs" />
      <Compile Include="Assets\Scripts\starting_boxes.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

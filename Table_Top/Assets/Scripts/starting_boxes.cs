@@ -16,14 +16,14 @@ public class starting_boxes : MonoBehaviour {
 	void OnTriggerEnter(Collider col){
 		if (col.gameObject.tag == "tank") {
 			col.GetComponent<model_manager> ().valid_placement = true;
-			col.GetComponent<model_manager> ().change_color('g');
+			col.GetComponent<color_changer> ().change_color('g');
 		}
 	}
 
 	void OnTriggerExit(Collider col){
 		if (col.gameObject.tag == "tank") {
 			col.GetComponent<model_manager> ().valid_placement = false;
-			col.GetComponent<model_manager> ().change_color('r');
+			col.GetComponent<color_changer> ().change_color('r');
 		}
 	}
 
